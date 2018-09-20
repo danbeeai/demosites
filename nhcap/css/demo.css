@@ -1,0 +1,117 @@
+body#LoginForm{
+  background-color:#2f84bd;
+  background-image:linear-gradient(-20deg,#2f84bd,  #26a15e);
+  background-repeat:no-repeat;
+  background-position:center center; 
+  background-size:100%; 
+  background-attachment:fixed;
+  padding:10px;
+}
+.container{
+  width: 750px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.form-heading { 
+  color: #fff;
+  font-size: 46px;
+  text-align: center;
+}
+.box{
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 4px;
+  margin: 15px auto 20px;
+  border: 1px solid #d4d4d4;
+  min-width: 320px;
+  max-width: 480px;
+  padding: 30px 25px 40px 25px;
+}
+.panel{
+  
+}
+.panel h2{
+  color: #444444;
+  font-size: 36px;
+  margin: 0 0 16px 0;
+}
+.panel p {
+  color: #777777;
+  font-size: 14px;
+  margin-bottom: 16px;
+  line-height: 20px;
+}
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+.main-div {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%)
+}
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.login-form  .btn.btn-primary {
+  background: #228c7e none repeat scroll 0 0;
+  border-color: #19675d;
+  color: #ffffff;
+  text-decoration: none;
+}
+.login-form  .btn.btn-primary:hover{
+  font-weight:normal;
+}
+.login-form  .form-control,
+.login-form  .btn.btn-primary,
+.login-form  .btn.btn-secondary{
+  width:100%;
+}
+.login-form  .btn.btn-primary,
+.login-form  .btn.btn-secondary{
+  position: relative;
+  top: 6px;
+}
+
+.forgot {
+  text-align: left; margin-bottom:30px;
+}
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+  width: 100%;
+}
+.login-form .btn.btn-primary.reset {
+  background: #ff9900 none repeat scroll 0 0;
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: #444444; font-size: 13px;text-decoration: none;}
+
+.form-label{
+    text-align: left;
+    vertical-align: middle;
+}
+.form-row{
+    margin-bottom:10px;
+}
+a{
+  color: #fff;
+  text-decoration: underline;
+}
+a:hover{
+    color:#fff;
+    font-weight:bold;
+}
