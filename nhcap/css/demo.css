@@ -24,9 +24,9 @@ body#LoginForm{
   border-radius: 4px;
   margin: 15px auto 20px;
   border: 1px solid #d4d4d4;
-  min-width: 320px;
+  min-width: 340px;
   max-width: 480px;
-  padding: 30px 25px 40px 25px;
+  padding: 20px 18px 20px 18px
 }
 .panel{
   
@@ -74,6 +74,12 @@ body#LoginForm{
 .login-form  .btn.btn-primary:hover{
   font-weight:normal;
 }
+.login-form  .btn.btn-secondary{
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
 .login-form  .form-control,
 .login-form  .btn.btn-primary,
 .login-form  .btn.btn-secondary{
@@ -105,7 +111,7 @@ body#LoginForm{
     vertical-align: middle;
 }
 .form-row{
-    margin-bottom:10px;
+    margin-bottom:20px;
 }
 a{
   color: #fff;
